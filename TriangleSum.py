@@ -4,10 +4,8 @@ Created on Sat Oct 22 11:19:25 2022
 
 @author: Stefan Hausner
 """
-
 import numpy as np
 import pandas as pd
-
 
 def convert_text_to_array():
     trianglematrix = np.zeros((100,100),int)
@@ -71,7 +69,6 @@ def choose_exercise(exercise):
 def main():
     # choose exercise by inserting 1 or 2
     choose_exercise(2)
-             
-        
+                     
 if __name__ == "__main__":
     main()
